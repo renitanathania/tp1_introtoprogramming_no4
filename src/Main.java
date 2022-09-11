@@ -14,9 +14,9 @@ public class Main {
         System.out.println("Data Anda: ");
         System.out.println("❤❤❤❤❤❤❤❤❤");
         System.out.print("Masukan Nama Anda: ");
-        String nama = mainScanner.nextLine();
-        System.out.print("Masukan Umur Anda: ");
-        String umur = mainScanner.nextLine();
+        String nama = mainScanner.next();
+        System.out.print("Masukan Umur Anda : ");
+        Integer umurAnda = mainScanner.nextInt();
         System.out.println();
 
 
@@ -24,24 +24,24 @@ public class Main {
         System.out.println("Data Pasangan Anda");
         System.out.println("❤❤❤❤❤❤❤❤❤");
         System.out.print("Masukan Nama Pasangan Anda: ");
-        String namapasangan = mainScanner.nextLine();
-        System.out.print("Masukan Umur Pasangan Anda: ");
-        String umurpasangan = mainScanner.nextLine();
+        String namaPasangan = mainScanner.next();
+        System.out.print("Masukan Umur Anda : ");
+        Integer umurPasangan = mainScanner.nextInt();
         System.out.println();
 
         //output data by system
-        System.out.println(nama + " [" + umur + "] tahun");
+        System.out.println(nama + "[" + umurAnda + "] tahun");
         System.out.println();
-        System.out.println("  ❤❤❤    ❤❤❤  ");
-        System.out.println(" ❤❤❤❤  ❤❤❤❤ ");
-        System.out.println("❤❤❤❤❤❤❤❤❤❤");
-        System.out.println("  ❤❤❤❤❤❤❤❤  ");
-        System.out.println("    ❤❤❤❤❤❤    ");
-        System.out.println("       ❤❤❤❤      ");
-        System.out.println("        ❤❤❤       ");
-        System.out.println("          ❤         ");
+        System.out.println("  ❤❤❤    ❤❤❤    ");
+        System.out.println(" ❤❤❤❤  ❤❤❤❤   ");
+        System.out.println("❤❤❤❤❤❤❤❤❤❤  ");
+        System.out.println("  ❤❤❤❤❤❤❤❤     ");
+        System.out.println("    ❤❤❤❤❤❤        ");
+        System.out.println("       ❤❤❤❤          ");
+        System.out.println("        ❤❤❤           ");
+        System.out.println("          ❤              ");
         System.out.println();
-        System.out.println(namapasangan + " [" + umurpasangan + "] tahun");
+        System.out.println(namaPasangan + " [" + umurPasangan + "] tahun");
         System.out.println();
 
         //result
